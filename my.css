@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #505050;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.cbody{
+    background-color: cadetblue;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.Top{
+    height: 40vh;
+    position: relative;
+    border-bottom: 3px solid #ffffff;
+}
+.PlayAgainBtn{
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #505050;
+    font-size: 18px;
+    margin: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.HintText{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.WtIGuess{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    padding: 30px 50px;
+    background-color: #ffffff;
+    bottom: -45px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.Guess{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.bottom{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputbox{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.checkbtn{
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.right{
+    width: 50%;
+text-align: center;
+}
+.Start , .Score, .HScore{
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 0px;
+}
